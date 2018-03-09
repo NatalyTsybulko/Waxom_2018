@@ -38,14 +38,14 @@
 	</header>
 	<!--радио-кнопки-->
 	<div class="slyder">
-		<input id="slide-01" class="button" type="radio" name="switch_slyde"> 
-		<input id="slide-02" class="button" type="radio" name="switch_slyde" checked=""> 
-		<input id="slide-03" class="button" type="radio" name="switch_slyde">
-		<input id="slide-04" class="button" type="radio" name="switch_slyde">
-		<input id="slide-05" class="button" type="radio" name="switch_slyde">
+		<input id="slide_01" class="button" type="radio" name="switch_slyde"> 
+		<input id="slide_02" class="button" type="radio" name="switch_slyde" checked=""> 
+		<input id="slide_03" class="button" type="radio" name="switch_slyde">
+		<input id="slide_04" class="button" type="radio" name="switch_slyde">
+		<input id="slide_05" class="button" type="radio" name="switch_slyde">
 	<!--содержимое слайдера-->
-<div class="slyder_content">
-	<ul class="slider_content_list">
+		<div class="slyder_content">
+		<ul class="slider_content_list">
             <li class="slide_01">
             <p class="text_1">
                 <span>Unique and Modern Design</span><br>
@@ -88,11 +88,14 @@
 			<a class="middle_button" href="middle_button.html">Get started</a>
 			</li>
 		</ul>
-
-</div>
-
-
-
-
-
+		<!--пока не разобралась для чего lable
+		<label class="slider_indicator" for="slide_01"></label>
+        <label class="slider_indicator" for="slide_02"></label>
+        <label class="slider_indicator" for="slide_03"></label>
+        <label class="slider_indicator" for="slide_04"></label>
+        <label class="slider_indicator" for="slide_05"></label>-->
+		</div>
 	</div>
+	<!--Кнопки вперед-назад-->
+		<button class="slider_button_previous" type="button"><</button>
+        <button class="slider_button_next" type="button">></button>
